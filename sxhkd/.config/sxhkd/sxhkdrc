@@ -1,0 +1,11 @@
+shift alt + T
+	$TERMINAL
+
+shift alt + F
+	$FILEMANAGER
+
+shift mod4 + S
+	xfce4-screenshooter -r
+
+F12
+	tdrop -ma -w 98% -x 1% -s dropdown $TERMINAL
