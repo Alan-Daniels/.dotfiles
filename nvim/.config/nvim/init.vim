@@ -31,6 +31,8 @@ call plug#begin('~/.vim/plugged')
 " Requires nvim v7
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+Plug 'gpanders/editorconfig.nvim'
+
 Plug 'nvim-lua/plenary.nvim'
 
 Plug 'nvim-telescope/telescope.nvim'
