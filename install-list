@@ -2,9 +2,10 @@ alacritty
 base-devel
 fish
 neovim
-powerline
+powerline-go
 stow
 sxhkd
 tmux
+ttf-jetbrains-mono
 xfce4-screenshooter
 yay
