@@ -39,13 +39,19 @@ Plug 'nvim-telescope/telescope.nvim'
 
 Plug 'navarasu/onedark.nvim'
 
+Plug 'nvim-lualine/lualine.nvim'
+
 call plug#end()
 
 let g:onedark_config = {
     \ 'style': 'deep',
+    \'transparent': 'true',
 \}
 colorscheme onedark
-highlight Normal guibg=none
+
+lua << END
+require("config.lualine")
+END
 
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
