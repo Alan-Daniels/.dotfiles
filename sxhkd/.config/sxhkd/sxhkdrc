@@ -8,4 +8,7 @@ shift mod4 + S
 	xfce4-screenshooter -r
 
 F12
-	tdrop -ma -w 98% -h 41% -x 1% -s dropdown $TERMINAL
+	tdrop -ma -s dropdown $TERMINAL
+
+mod4 + v
+    clipmenu

@@ -4,4 +4,10 @@ export TERMINAL="alacritty"
 export BROWSER="chromium"
 export FILEMANAGER="thunar"
 
+export PATH="$PATH:$HOME/go/bin"
+
 sxhkd &
+clipmenud &
+# ./.fehbg &
+# picom &
+# /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &

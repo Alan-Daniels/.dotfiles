@@ -1,7 +1,9 @@
 alacritty
 base-devel
+clipmenu
 fish
 neovim
+pam-u2f
 powerline-go
 stow
 sxhkd

@@ -29,7 +29,7 @@ let mapleader = " "
 call plug#begin('~/.vim/plugged')
 
 " Requires nvim v7
-" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 Plug 'gpanders/editorconfig.nvim'
 
