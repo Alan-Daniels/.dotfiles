@@ -8,6 +8,7 @@ export PATH="$PATH:$HOME/go/bin"
 
 sxhkd &
 clipmenud &
+solaar --window=hide &
 # ./.fehbg &
 # picom &
 # /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
